@@ -1,0 +1,36 @@
+h1{
+  font-family: monospace;
+}
+
+div.cell {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+div.row {
+  height: 20px;
+}
+
+div.brick {
+  background-color: blue;
+}
+
+div.empty {
+  background-color: black;
+}
+
+div.coin {
+  background: url('coin2.gif');
+  background-size: cover;
+}
+
+div.pacman {
+  background: url('pacman.gif');
+  background-size: cover;
+}
+
+div.gameboard {
+  display: inline-block;
+  background-color: black;
+}
